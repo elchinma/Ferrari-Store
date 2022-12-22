@@ -47,7 +47,7 @@ body {
     position: absolute;
     left: 50%;
     top: 5px;
-    transform: translateX(-8%);
+    transform: translateX(-15%);
   }
   .navbar-logo img{
     width: 91px;
@@ -56,9 +56,9 @@ body {
 
   .navbar-oboy {
     position: absolute;
-    left: 20%;
+    left: 50%;
     top: 100%;
-    transform: translate(-20%);
+    transform: translate(-50%);
   }
 
   .navbar-oboy img {
@@ -68,7 +68,7 @@ body {
   .navbar-fon {
     position: absolute;
     left: 50%;
-    top: 1260px;
+    top: 1100px;
     transform: translateX(-50%);
   }
 
@@ -148,8 +148,21 @@ a.ddott:hover {
   border-left: 2px solid  rgb(240, 27, 27);
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
+.centered {
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-
-
-
+span {
+  display: inline-block;
+  transform: translate(-1em, 160em);
+}
