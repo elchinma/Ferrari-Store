@@ -110,14 +110,14 @@ body {
 
     }
 
-  .ccd {
+  .container-auto {
     overflow: hidden;
     margin: 0px 0;
     position: relative;
     left: 41%;
 }
 
-a.ddott {
+a.knopka-auto {
   display: block;
   text-transform: uppercase;
   line-height: 50px;
@@ -139,7 +139,7 @@ a.ddott {
   transition: all 0.3s ease-in-out;
 
 }
-a.ddott:hover {
+a.knopka-auto:hover {
   text-shadow: 0 50px 0 #FFF, 1px 51px 20px #FFF;
   margin-top: -50px;
   height: 100px;
@@ -155,14 +155,19 @@ a.ddott:hover {
 }
 
 .centered {
-  font-size: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  line-height: 34px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 8px;
+  transform: translate(-1em, 150em);
 }
 
 span {
   display: inline-block;
-  transform: translate(-1em, 160em);
+  transform: translate(-1em, 10em);
 }
+
+strong {
+  font-size: 12px;
+}
+
